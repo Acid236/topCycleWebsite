@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopCycle</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><img src="./asset/logo.webp" alt="Logo TopCycle" /></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#desktop-nav">Home</a></li>
+        <li><a href="#servizi">Servizi</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </div>
+    
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><img src="./asset/logo.webp" alt="Logo TopCycle"/></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#servizi" onclick="toggleMenu()">Servizi</a></li>
+        <li><a href="#contatti" onclick="toggleMenu()">Contatti</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="chi_siamo">
+    <div class="section__pic-container">
+      <img src="./asset/razzo1.webp" alt="Logo Razzo" class="rotated-image" />
+    </div>
+    <div class="content">
+      <p>
+        <span style="font-weight: bold; color: rgb(0, 186, 255)">TopCycle</span> <span style="font-weight: lighter">un'agenzia specializzata in Web Marketing</span>
+      </p>
+      <p>Realizzare e sviluppare strategie su misura è la nostra specialità.</p>
+  
+      <div class="button">
+        <button onclick="window.location.href='#servizi'">COSA CI RENDE SPECIALI</button>
+      </div>
+    </div>
+  </section>
+  <section id="benefici">
+    <div class="benefits-description">
+      <p>
+        <span style="font-weight: bold; font-size: larger; color: rgb(0, 186, 255); text-align: center;">Benefici e Vantaggi</span> 
+      </p>
+      <span style="font-weight: lighter; text-align: center;">Non seguiamo la massa, proponiamo e sviluppiamo progetti non convenzionali per espandere il tuo business.</span>
+      <p style="text-align: center;">Ascoltando le tue idee realizziamo un piano di web marketing su misura per raggiungere i tuoi obiettivi.</p>
+    </div>
+  </section>
+  <section id="benefits-list">
+    <div class="rect">
+      <div class="image-container">
+        <img src="./asset/stella.webp" alt="Immagine 1">
+      </div>
+      <div class="caption">
+        <p style="text-align: center;">Unicità</p>
+        <p style="text-align: center;">Sviluppiamo idee non adatte a tutti e non convenzionali per espandere il tuo business</p>
+      </div>
+    </div>
+    
+      <div class="rect">
+        <div class="image-container">
+          <img src="asset/professione.webp" alt="Immagine 2">
+        </div>
+        <div class="caption">
+          <p style="text-align: center;">Professionalità</p>
+          <p style="text-align: center;">Mettiamo a disposizione più competenze per attuare la strategia vincente</p>
+        </div>
+      </div>
+    
+      <div class="rect">
+        <div class="image-container">
+          <img src="asset/crescita.webp" alt="Immagine 3">
+        </div>
+        <div class="caption">
+          <p style="text-align: center;">Nuovi Clienti</p>
+          <p style="text-align: center;">Generiamo attenzione e fiducia, trasformando utenti e visitatori in contatti qualificati e clienti fidelizzati</p>
+        </div>
+      </div>
+  </section>
+  <section id="servizi">
+    <div class="servizi_img">
+        <img src="./asset/razzo2.webp" alt="Logo Razzo"/>
+    </div>
+
+    <div class="servizi_text">
+        <p class="titleservizi">
+            <span style="font-weight: bold; color: rgb(0, 186, 255)">
+                I Nostri servizi
+            </span>
+        </p>
+        <div class="content_servizi">
+            <p>
+                <span style="font-weight: lighter">
+                    Affianchiamo le aziende per espandere e far crescere velocemente il loro business, guidandole costantemente per sfruttare appieno le opportunità offerte dall’evoluzione tecnologica e digitale.
+                </span>
+            </p>
+        </div>
+
+        <div class="content_servizi">
+            <p>
+                Sfruttiamo tutti i mezzi a disposizione per portare al prossimo step il tuo business, partendo dallo sviluppo di un’ecommerce dedicato, dalla gestione dei social network, creazione e gestione di strategie di marketing su misura.
+            </p>
+        </div>
+
+        <div class="content_servizi">
+            <p>
+                Che tu sia un imprenditore oppure un grande brand, siamo la scelta giusta per aiutarti a crescere.
+            </p>
+        </div>
+    </div>
+  </section>
+  <section id="servizi-list">
+    <div class="s-rect">
+      <div class="image-container">
+        <img src="./asset/ecommerce.webp" alt="Sviluppo E-Commerce">
+      </div>
+      <div class="caption">
+        <p>Sviluppo E-Commerce</p>
+        <p>Creiamo da 0 il tuo e-commerce, tramite la piattaforma che preferisci, all'avanguardia e design responsive</p>
+      </div>
+    </div>
+  
+    <div class="s-rect">
+      <div class="image-container">
+        <img src="./asset/web marketing.webp" alt="Web Marketing">
+      </div>
+      <div class="caption">
+        <p>Web Marketing</p>
+        <p>Creiamo e sviluppiamo Campagne di Marketing per portare visibilità e clienti alla tua azienda</p>
+      </div>
+    </div>
+  
+    <div class="s-rect">
+      <div class="image-container">
+        <img src="./asset/social network.webp" alt="Sviluppo Social Network">
+      </div>
+      <div class="caption">
+        <p>Sviluppo Social Network</p>
+        <p>Creiamo attenzione e interesse per la tua azienda, tramite la creazione di contenuti strategici nei tuoi Social Network</p>
+      </div>
+    </div>
+  
+  
+  <div class="s-rect">
+    <div class="image-container">
+      <img src="./asset/logistic.webp" alt="Logistica e magazzino">
+    </div>
+    <div class="caption">
+      <p>Logistica e magazzino</p>
+      <p>Con l'aiuto di partner all'avanguardia garantiamo un magazzino e spedizioni in 24/48h in tutta italia</p>
+    </div>
+  </div>
+</section>
+<section id="contatti">
+  <div class="contatti_container">
+    
+      <div class="contatti_info">
+        <h2 style="color: rgb(0, 186, 255);">Contattaci</h2>
+        <p>Email: <a href="mailto:info@topcycle.it">info@topcycle.it</a></p>
+      </div>
+      <div class="contatti_form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="5d837f75-0af9-4cb4-9809-45b41e405105">
+          <input type="text" id="name" name="name" placeholder="Nome" required>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <input type="tel" id="phone" name="phone" placeholder="Telefono">
+          <textarea id="message" name="message" placeholder="Messaggio" required></textarea>
+          <button type="submit">INVIA</button>
+        </form>
+      </div>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="footer-content">
+    <p>© 2019 - 2024 TopCycle | Venegono Superiore, 21040 (VARESE) | P.Iva: 03786490122</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
